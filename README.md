@@ -24,7 +24,9 @@ After that you can test this trained neural network with a flower image. `predic
 python predict.py flowers/valid/3/image_06631.jpg checkpoints/
 ```
 **By default** script uses `flowers_name.json` as **flower labels**, prints top **5** predictions and runs in **CPU** mode (it could takes a lot of time). When the scripts is completed you'll see results like this:
----image----
+
+![Image of prediction](https://github.com/UlianaDzhumok/flower-image-classifier/blob/dev/assets/prediction.png)
+
 ## Traning a neural network
 `train.py` takes in the next optional arguments:
 - `--save_directory` - the directory for saving checkpoints (default=`checkpoints/`)
