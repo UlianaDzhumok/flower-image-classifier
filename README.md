@@ -30,7 +30,7 @@ python predict.py flowers/valid/3/image_06631.jpg checkpoints/
 ## Traning a neural network
 `train.py` takes in the next optional arguments:
 - `--save_directory` - the directory for saving checkpoints (default=`checkpoints/`)
-- `--arch` - the architecture of a model (default=VGG19). The full list you can see [here](https://pytorch.org/docs/stable/torchvision/models.html)
+- `--arch` - the architecture of a model (default=VGG19). The full list you can see [here]([https://pytorch.org/docs/stable/torchvision/models.html](https://pytorch.org/vision/0.9/models.html))
 - `--learning_rate` - the learning rate for training (default=0.01). Try to find the most suitable one.
 - `--hidden_units` - the number of hidden units in a model (default=512). More is better.
 - `--epochs` - the number of training epochs (default=10). In general 30 is OK to train a network completely.
